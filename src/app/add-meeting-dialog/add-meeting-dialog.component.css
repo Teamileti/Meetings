@@ -1,0 +1,27 @@
+.save{
+  background-color: darkslategray;
+}
+h2 {
+  color: lightblue;
+}
+::ng-deep {
+  .mat-form-field-label {
+    color: white !important;
+  }
+
+  .mat-form-field.mat-focused .mat-form-field-ripple {
+    background-color: darkslategray;
+  }
+}
+.dialog-container{
+  text-align: center;
+  align-items: center;
+  height: 100%;
+
+}
+.form mat-form-field {
+  width: 300px;
+}
+::ng-deep .mat-step-header .mat-step-icon {
+  background-color: darkslategray;
+}
